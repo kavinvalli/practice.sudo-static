@@ -22,7 +22,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/JamesIves/github-pages-deploy-action@v4.3.3
         with:
           BRANCH: main
           FOLDER: dist
