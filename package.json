@@ -1,0 +1,17 @@
+{
+  "name": "practice.sudo-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "Kavin Desi Valli <mail@kavin.me> (https://kavin.me/)",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.5.0",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  }
+}
