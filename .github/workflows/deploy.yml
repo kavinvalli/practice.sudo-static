@@ -27,3 +27,4 @@ jobs:
           branch: gh-pages
           folder: dist
           ssh-key: ${{ secrets.DEPLOY_TOKEN }}
+          single-commit: true
